@@ -38,6 +38,9 @@ ul {
     display: flex;
     gap: 24px;
 }
+.section {
+    padding-bottom: 120px;
+}
 /*header*/
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -145,7 +148,6 @@ cursor: pointer;
 /*advantages*/
 .container-advantages, .container-team {
     padding-top: 120px;
-    padding-bottom: 120px;
 }
 .advantages-title {
     margin-bottom: 8px;
@@ -161,9 +163,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 /*products*/
-.container-products {
-margin-bottom: 120px;
-}
 .products-title, .team-title {
     margin-bottom: 72px;
 font-weight: 700;
@@ -250,10 +249,6 @@ border-color: transparent;
     text-decoration: none;
 }
 .portfolio-item {
-    width: 360px;
-height: 420px;
-left: 156px;
-top: 288px;
 background: var(--white);
 }
 .portfolio-title {
