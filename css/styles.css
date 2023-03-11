@@ -27,6 +27,11 @@ ul {
     margin: 0;
     padding: 0;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .container {
     max-width: 1158px;
     padding-left: 15px;
@@ -160,7 +165,6 @@ letter-spacing: 0.02em;
 color: var(--navy-blue);
 }
 .text-style {
-    font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
@@ -248,10 +252,6 @@ border-color: transparent;
 }
 .portfolio-link {
     text-decoration: none;
-}
-.portfolio-image {
-    display: block;
-    max-width: 100%;
 }
 .portfolio-item {
 background: var(--white);
