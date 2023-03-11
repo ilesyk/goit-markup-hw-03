@@ -51,12 +51,11 @@ img {
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
-display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
 color: var(--brand-color);
+margin-right: 76px;
 }
 .logo-color-header {
 color: var(--navy-blue);
@@ -66,27 +65,24 @@ color: var(--navy-blue);
 }
 .header {
     border-bottom: 1px solid #E7E9FC;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .container-header {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    justify-content: space-between;
 }
 .nav-logo {
     display: flex;
-    align-items: center;
 }
 .nav-menu {
     display: flex;
-    align-items: center;
-    margin-left: 76px;
     gap: 40px;
 }
 .nav-contacts {
     display: flex;
     align-items: center;
-    margin-left: 332px;
     gap: 40px;
 }
 .navigation {
@@ -212,13 +208,10 @@ padding: 100px 0;
 }
 .logo-color-footer {
     color: var(--light-background);
-    
 }
 .footer-text {
     max-width: 264px;
     margin-top: 16px;
-
-font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--cornflower);
@@ -234,7 +227,6 @@ color: var(--cornflower);
     padding: 12px 24px;
     font-family: 'Roboto', sans-serif;
 font-weight: 500;
-font-size: 16px;
 line-height: 1.5;
 align-items: center;
 text-align: center;
@@ -283,6 +275,7 @@ color: var(--slate);
     margin-top: 96px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 24px;
 }
 .container-portfolio {
