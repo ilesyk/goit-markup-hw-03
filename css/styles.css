@@ -22,24 +22,23 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-    margin: 0;
-}
+h6,
 ul {
-    padding-left: 0;
     margin: 0;
+    padding: 0;
 }
 .container {
-    width: 1440px;
-    padding-left: 156px;
-    padding-right: 156px;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 .flex-list {
     display: flex;
     gap: 24px;
 }
 .section {
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 /*header*/
 .logo {
@@ -69,6 +68,7 @@ color: var(--navy-blue);
 }
 .nav-logo {
     display: flex;
+    align-items: center;
 }
 .nav-menu {
     display: flex;
@@ -106,6 +106,7 @@ color: var(--text-color);
 /*hero*/
 .hero {
     background-color: var(--hero-background);
+padding: 188px 0;
 }
 .hero-header {
 max-width: 496px;
@@ -115,13 +116,9 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: var(--white);
-margin-bottom: 48px;
+margin: 0 auto 48px;
 }
 .hero-container {
-    padding-left: 472px;
-    padding-right: 472px;
-    padding-top: 182px;
-    padding-bottom: 188px;
     background-color: var(--hero-background);
 }
 .order-button {
@@ -146,8 +143,11 @@ cursor: pointer;
     background-color: var(--button-hover);
 }
 /*advantages*/
-.container-advantages, .container-team {
-    padding-top: 120px;
+.advantages {
+    padding-bottom: 0;
+}
+.advantages-item {
+    width: calc((100% - 72px) / 4);
 }
 .advantages-title {
     margin-bottom: 8px;
@@ -173,13 +173,16 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--navy-blue);
 }
+.product-image {
+    width: calc((100% - 48px) / 3);
+}
 .team {
     background-color: var(--light-background);
 }
 .team-member {
     line-height: 1.11;
-    width: 264px;
-height: 380px;
+    width: calc((100% - 72px) / 4);
+    padding-bottom: 32px;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
 background-color: var(--background-color);
@@ -195,13 +198,9 @@ letter-spacing: 0.02em;
 color: var(--navy-blue);
 }
 /*footer*/
-.container-footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
 .footer {
     background-color: var(--navy-blue);
-height: 310px;
+padding: 100px 0;
 }
 .logo-color-footer {
     color: var(--light-background);
@@ -210,7 +209,7 @@ height: 310px;
 .footer-text {
     max-width: 264px;
     margin-top: 16px;
-height: 72px;
+
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
