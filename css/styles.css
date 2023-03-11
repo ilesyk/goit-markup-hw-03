@@ -69,7 +69,7 @@ color: var(--navy-blue);
 }
 .container-header {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -79,11 +79,13 @@ color: var(--navy-blue);
 }
 .nav-menu {
     display: flex;
+    align-items: center;
     margin-left: 76px;
     gap: 40px;
 }
 .nav-contacts {
     display: flex;
+    align-items: center;
     margin-left: 332px;
     gap: 40px;
 }
